@@ -1,0 +1,9 @@
+#AuthUserFile 	/var/www/vhosts/users.xplornet.com/web_users/friisc/FriisCottage/cgi-bin/passwords
+AuthUserFile 	/services/webpages/isp/users.xplornet.com/f/r/friisc/public/FriisCottage/cgi-bin/passwords
+AuthGroupFile /dev/null
+AuthName "Secure Document"
+AuthType Basic
+
+<LIMIT GET PUT POST>
+require user friis
+</LIMIT>
